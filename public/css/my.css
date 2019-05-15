@@ -1,0 +1,2699 @@
+body {
+  
+  margin: 0;
+  padding: 0;
+  background-color:#f4f6f7;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  overflow-x: hidden;
+}
+
+.info{
+  margin:0px -20px;
+  background-color: #000000;
+  opacity:0.8;
+  height:100vh;
+}
+
+
+
+.infoPlace{
+  padding-top:30%;
+}
+
+@media only screen and (max-height: 460px) {
+  
+  .infoPlace{
+    padding-top:10%;
+  }
+
+  
+}
+
+.infoHeader{
+  padding-top:30px;
+  text-align: center;
+    color: white;
+    font-weight: 500;
+    font-size: 200%;
+    padding-bottom:10%;
+}
+
+.infoText{
+    text-align: center;
+   margin-top:10px;
+    opacity:0.8;
+    font-style: italic;
+    font-size: 15px;
+    color: #FFF;
+    line-height: 25px;
+}
+
+
+
+input:focus{
+  outline: none !important;
+  border-color: #b24242 !important;
+  box-shadow: 0 0 5px #b24242 !important;
+  outline:none !important;
+}
+
+.Page{
+  padding-top: 4.5rem;
+}
+
+
+.myrow {
+  display: flex;
+  flex-wrap: wrap; 
+}
+
+.uniteam{
+  color: #C42626;
+}
+
+.Main {
+  height: 100vh;
+  color: black;
+}
+
+.Main_SIgnUp {
+  height: 70%;
+  width: 50%;
+  text-align: center;
+  background-color:white;
+  margin:auto;
+  margin-top: 30px;
+  margin-bottom: 20px;
+  border-bottom: 1px solid #445366; 
+}
+
+@media only screen and (min-width: 768px) {
+  .Main_SIgnUp {
+    min-width: 620px;
+  } 
+}
+
+
+@media only screen and (max-width: 768px) {
+  .visibility {
+    display: none;
+  }
+}
+
+  
+ 
+.Main_Left {
+  width: 50%;
+  background-image: url("../images/agreement.png") ;
+  background-size: cover;
+  background-position: center;
+}
+ 
+.Main_Right {
+  width: 50%;
+  background-color: #F6F4F4;
+  padding: 0px 0px; 
+}
+
+.SignIn_Content{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 100vh;
+  position:relative;
+}
+
+@media only screen and (max-height: 560px) {
+  .SignIn_Content{
+    display: block;
+  }
+}
+
+.Main_Form {
+  position: relative;
+  margin:auto;
+  width: 100%;
+  max-width: 330px;
+}
+
+.FormHead_SignIn {
+  margin-top:auto;
+  text-align: center;
+  color: #000000;
+  font-weight: 500;
+  font-size: 300%;
+  margin-bottom: 80px;  
+}
+
+.FormHead_SignUp {
+  color:#000000;
+  font-weight: 500;
+  font-size: 300%;
+  margin-bottom: 40px;
+  margin-top: 20px;
+}
+
+.FormBody_SignIn {
+  margin-bottom:50px;
+   
+}
+
+.FormBody_SignUp {
+  margin-bottom:50px; 
+  position: relative;
+}
+
+
+
+
+.FormBody_SignIn .FormField {
+  margin-bottom: 30px;
+  text-align: left;
+}
+
+.FormBody_SignUp .FormField{
+  margin-bottom: 10px;
+  text-align: left; 
+}
+  
+.FormField_Label {
+  display: block; 
+  font-size: .9em;
+  color: black;
+  text-align: left !important;
+  margin-bottom:0.2rem !important;
+}
+
+.FormField_Input {
+  width: 10%;
+  background-color: white;
+  color: rgb(250, 232, 232);
+  outline: none;
+  border-bottom: 1px solid #445366;
+  font-size: 1em;
+  font-weight: 300;
+  padding-bottom: 10px;
+  margin-top: 10px;
+}
+
+.FormField_Input::placeholder {
+  color: #616E7F;
+}
+  
+.FormField_Button {
+  background-color: #C93B3B;
+  color: white;
+  border: none;
+  outline: none;
+  border-radius: 25px;
+  padding: 10px 0px;
+  font-size: 1.1em;
+  font-weight: bold;
+  width:180px;
+  display: inline-block;
+  text-align: center;
+  vertical-align: middle;
+  user-select: none; 
+  }
+
+.FormField_Button:hover {
+  cursor:pointer;
+  background-color: #C42626;
+}
+
+.size{
+  margin-top:0px;
+  height:30px;
+  font-size: 0.7em;
+  font-weight: bold;
+  width: 80px;
+  white-space: nowrap;
+  vertical-align: baseline;
+  padding: 0px;
+}
+
+.FormButtons {
+  margin: auto;
+  text-align: center;
+  margin-bottom: 10px;
+  margin-top:10px;
+}
+
+.reset .FormField_Button { 
+   margin-top:50px;
+}
+
+.FormField_Link {
+  display: inline-block;
+  background-color: #E5E5E5;
+  color: black;
+  border: none;
+  outline: none;
+  border-radius: 25px;
+  padding: 8px 0px;
+  font-size: 1.1em;
+  font-weight: bold;
+  width: 180px;
+  text-align: center;
+  white-space: nowrap;
+  vertical-align: baseline;
+  border:4px solid #C42626;  
+}
+
+.FormField_Link:hover{
+  text-decoration: none;
+  color:black;
+  background-color:#edbdbd;
+}
+
+.FormForgot{
+  float: right;
+}
+
+.HaveAccount_Link {
+  font-weight: bold;
+  color:#b24242;
+}
+
+.HaveAccount_Link:hover {
+  color:#C42626;
+  cursor:pointer;
+  text-decoration: underline;
+}
+
+.nav-link{ 
+  font-family: Vafle,'Open Sans',Arial,Helvetica,sans-serif;
+  font-weight: 550;
+  font-size: 1.3em;
+  margin-left: 10px;
+  line-height: 0.7em;
+  color:#b2b2b2;
+}
+
+.forgot-link{
+  color:#b24242;
+}
+
+.forgot-link:hover{
+  color:#C42626;
+  cursor:pointer;
+  text-decoration: underline;
+}
+
+.subnavbar .nav-link{
+  font-family: Vafle,'Open Sans',Arial,Helvetica,sans-serif;
+  font-weight: 550;
+  font-size: 1.6em;
+  margin-left: 5px;
+  line-height: 0.8em;
+}
+
+@media only screen and (max-width: 540px) {
+  .subnavbar .nav-link{
+    font-size: 1.0em;
+    margin-left: 0px;
+  }
+
+  .subnavbar .navbar-nav .nav-link {
+    padding-right: 0.3rem;
+    padding-left: 0.3rem;
+  }
+
+  .PreviewContent .rightcolumn15{
+    float: left;
+    width: 20%;
+  }
+
+  .PreviewContent .leftcolumn70{
+    float: left;
+    width: 65%;
+  }
+
+  .PreviewContent .rightcolumn30{
+    float: left;
+    width: 35%;
+  }
+
+  .PreviewContent .leftcolumn85{
+    float: left;
+    width: 80%;
+  }
+
+  .FilterMenuButton{
+    width: 1.6em;
+    height: 1.6em;
+    background-size: 1.6em 1.6em !important;
+  }  
+}
+
+@media only screen and (max-width: 330px) {
+  .PreviewContent .rightcolumn15{
+    width: 30%;
+  }
+
+  .PreviewContent .leftcolumn85{
+    width: 70%;
+  }
+
+  .subnavbar .nav-link{
+    font-size: 0.8em;
+    margin-left: 0px;
+  }
+
+  .subnavbar .navbar-nav .nav-link {
+    padding-right: 0.1rem;
+    padding-left: 0.1rem;
+  }
+  .PreviewContent .leftcolumn70{
+    float: left;
+    width: 60%;
+  }
+
+  .PreviewContent .rightcolumn30{
+    float: left;
+    width: 40%;
+  }
+
+}
+
+.subnavbar .nav-link:hover{
+  color:#000000;
+  font-weight: 600; 
+}
+
+.subnavbar{
+  margin-top: 30px;
+  font-size: 0.8em;
+  font-family: Vafle,'Open Sans',Arial,Helvetica,sans-serif;
+  padding: 1rem 0rem;
+}
+
+.Search{
+  font-size: 0.7em;
+}
+
+.nav-link:hover{
+  color:#F2F2F2;
+  font-weight: 600;
+}
+
+.navbar-bg{
+  background-color: #C42626;
+}
+
+.FormField_Input2 {
+  width: 200px;
+  background-color: white;
+  color: rgb(250, 232, 232);
+  outline: none;
+  border-bottom: 1px solid #445366;
+  font-size: 1em;
+  font-weight: 300;
+  padding-bottom: 10px;
+  margin-top: 10px;
+  margin-right: 20px;
+  display: inline-block;
+}
+
+.ml5{
+  margin-left: 10px;
+}
+
+.ml-20{
+  margin-left: 12%;
+}
+
+.ml-10{
+  margin-left: 10px;
+}
+
+.mt-20{
+  margin-top: 20px;
+}
+
+.mt-30{
+  margin-top: 40px;
+}
+
+.mt-10{
+  margin-top: 10px;
+}
+
+.mt-5{
+  margin-top: 5px;
+}
+
+.mt5{
+  margin-top: 5px;
+}
+
+.mt15{
+  margin-top: 15px;
+}
+
+.mt25{
+  margin-top: 35px;  
+}
+
+.text11{
+  font-size: 11px;
+}
+
+.subnavbar-brand{
+  color:#F2F2F2;
+  font-size: 1.5em;
+  font-family: 'Segoe UI';
+  font-weight: 500;
+}
+
+
+.ProjectSearch {
+  color: #9F1414;
+  border-color:#9F1414;
+  outline:none;
+}
+
+.ProjectSearch:focus{
+  outline: none !important;
+  border-color: #b24242;
+  box-shadow: 0 0 10px #b24242;
+}
+
+.ProjectFilter{
+  background-color: transparent;
+  border:none;
+  color: #9F1414;
+  padding-left: 5px;
+  outline: none;
+  font-size: 1.2em;
+  font-weight: 600;
+  margin-left: 10px;
+}
+
+.ProjectFilter option{
+  font-weight: 500;
+}
+
+.aho{
+  margin-top: 5px;
+  text-align: center;
+}
+
+.ProjectFilter:hover{
+  cursor:pointer;
+}
+
+.ProjectState{
+  background-color: transparent;
+  border:none;
+  color: black;
+  padding-left: 5px;
+  outline: none;
+  font-size: 1.5em;
+  font-weight: 300;
+}
+
+.ActualPage{
+  color: #9F1414;
+  font-weight: 600;
+  z-index: 2;
+  text-decoration: none;
+  background-color: #e9ecef;
+  border-color: #dee2e6;
+}
+
+.page-link { 
+  color: #b24242;
+}
+  
+.page-link:hover {
+  color: #9F1414;
+   
+}
+
+.ProjectsList{
+  margin-bottom: 50px;
+}
+
+.Preview{
+  color: #000000;
+  border: 1px solid #dbd9d9;
+  min-height: 100px;
+  padding-bottom:10px;
+  margin-bottom: 10px; 
+}
+
+.PreviewHead{
+  margin-top: 15px;
+  padding-right: 35px;
+  padding-left: 25px;
+  color: #b24242;
+  font-size: 16pt;
+  line-height: 1;
+  font-weight: bold;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  border-bottom: 1px solid #dbd9d9;
+  padding-bottom: 8px;
+}
+
+.PreviewHead-color{
+  color: #212529; 
+  text-decoration: none;
+}
+
+.PreviewHead-color:hover{
+  color: #b24242;
+}
+
+.HeaderTitle{
+  margin-top: 15px;
+  color: #9F1414;
+  font-size: 28pt;
+  line-height: 1;
+  font-weight: bold;
+  padding-right: 15px;
+  padding-left: 15px; 
+  }
+
+.pr-15{
+  padding-right: 15px;
+}
+
+.pl-15{
+  padding-left: 15px;
+}
+
+.ml-m15{
+  margin-left: -15px;
+}
+.mr-m15{
+  margin-right: -15px;
+}
+
+.border-bottom {
+  border-bottom: 1px solid #9F1414 !important;
+}
+
+.PreviewPosition{
+  margin-top: 10px; 
+}
+
+.PositionStyle{
+  font-size: 15px;
+  font-weight: 600;
+  margin-bottom: 5px;
+}
+
+.column{
+  float: left;
+  width: 50%;
+}
+
+.ml_10{
+  margin-left: 10px;
+}
+
+.ml_20{
+  margin-left: 20px;
+}
+
+.DescriptionProject{
+  margin-top: 5px;
+  font-size: 12px;
+  line-height: 1;
+  font-weight: 400;
+  margin-bottom: 20px;
+}
+
+.DesAuthor{
+  color:#606060;
+  font-weight: 400;
+  font-size: 14px;
+}
+  
+.Author{
+  color:#212529;
+  font-size: 14px;
+  font-weight: 500;
+  margin-left: 10px;
+}
+
+.ProjectAuthor .Author:hover{
+  color:#b24242;
+}
+
+.textAuthor{
+  color:#212529;
+  font-size: 14px;
+  font-weight: 500;
+}
+
+.text-center{
+  text-align:center
+}
+
+.form-create{
+  margin:200px;
+}
+
+.card-footer{
+  background-color: transparent;
+}
+
+.PlusPlace{
+  margin-left: 10px;
+  margin-top: 20px;
+  margin-bottom: 10px;
+}
+
+.CVUpload > input{
+  display: none;
+}
+
+.CoverUpload > input{
+  display: none;
+}
+
+.LinkCV:hover{
+  cursor:pointer;
+  text-decoration: underline; 
+  color: #b24242;
+}
+
+.ImageUpload > input{
+    display: none;
+}
+
+.ImageUpload img
+{
+  border:3px solid #000000;
+  cursor: pointer;
+}
+
+.PositionMark{
+  border: 1px solid #ccc6c6;
+  background:#F9F9F9;
+  width:100%;
+  border-radius: 5px;
+  margin-bottom: 5px;
+  display:flex;
+  height: 30px;
+  justify-content: center;
+  position: relative;
+}
+
+.Edit{
+  width: 20px;
+  background-image: url("../images/settings.png");
+  background-repeat: no-repeat;
+  background-size: 12px 12px;
+  background-position: center;
+  border: 1px solid #C42626; 
+  border-radius: 100%;
+  position: absolute;
+  top: 50%;
+  height: 20px;
+  margin-top: -10px; 
+  right: 28px;
+} 
+
+.Edit:hover{
+  cursor:pointer;
+  background:#C93B3B;
+  background-image: url("../images/settings.png");
+  background-repeat: no-repeat;
+  background-size: 12px 12px;
+  background-position: center;
+}
+
+.Minus{
+  height: 20px;
+  width: 20px;
+  background-image: url("../images/x.png");
+  background-repeat: no-repeat;
+  background-size: 15px 15px;
+  background-position: center;
+  border: 1px solid #C42626;
+  border-radius: 100%;
+  position: absolute;
+  top: 50%;
+  margin-top: -10px; 
+  right: 4px;
+}
+
+.Minus:hover{
+  cursor:pointer;
+  background: #C93B3B;
+  background-image: url("../images/x.png");
+  background-repeat: no-repeat;
+  background-size: 15px 15px;
+  background-position: center;
+}
+
+.InfoCreate{
+  height: 20px;
+  width: 20px;
+  background-image: url("../images/info.png");
+  background-repeat: no-repeat;
+  background-size: 15px 15px;
+  background-position: center;
+}
+
+.PositionInfo{ display:inline-block;
+  margin-left:5px;
+  position: absolute;
+  top: 3px;
+}
+
+.PositionName{
+  position: absolute;
+  left: 5px;
+  font-weight: 550;
+}
+
+.AddPositionButton{
+  display: inline-block;
+  background-color:transparent;
+  color: black;
+  border: none;
+  outline: none;
+  border-radius: 25px;
+  height:30px;
+  font-size: 0.7em;
+  font-weight: bold;
+  width: 80px;
+  text-align: center;
+  white-space: nowrap;
+  vertical-align: baseline;
+  border:2px solid #C42626;  
+}
+
+.dev{
+  padding-top:5px;
+}
+
+.AddPositionButton:hover{
+  background-color:#C42626;
+  cursor: pointer;
+  color:white;
+}
+
+.addpositionform{
+  text-align: left;
+}
+
+#show{
+  display: none;
+}
+
+.title{
+  font-size: 1.2em;
+  font-weight: bold;
+}
+
+.dropdown-item.active,
+.dropdown-item:active {
+  color: #212529;
+  text-decoration: none;
+  background-color: transparent;
+}
+
+.logout{
+  background-image: url("../images/exit.png") ;
+  background-repeat: no-repeat;
+  display: inline-block;
+  background-size: 1.5em 1.5em;
+  width:1.5em;
+  height:1.5em;
+  vertical-align: middle;
+}
+
+.logout:hover{
+  cursor:pointer;
+}
+
+.notification{
+  background-image: url("../images/bell.png") ;
+  background-repeat: no-repeat;
+  display: inline-block;
+  background-size: 1.5em 1.5em;
+  width:1.5em;
+  height:1.5em;
+  vertical-align: middle;
+}
+
+.notification:hover{
+  cursor:pointer;
+}
+
+.supervisorNotification{
+  display: inline-block;
+  background-image: url("../images/user-check.png") ;
+  background-repeat: no-repeat;
+  background-size: 1.5em 1.5em;
+  width:1.5em;
+  height:1.5em;
+  vertical-align: middle;
+}
+
+.supervisorNotification:hover{
+  cursor:pointer;
+}
+
+.ProfileButton{
+  font-family: Roboto,sans-serif;
+  display: inline-block;
+  background-color: #E5E5E5;
+  color: #626f7d;
+  border: none;
+  outline: none;
+  border-radius: 25px; 
+  font-size: 1.2em;
+  margin-top:10px;
+  width: 200px;
+  text-align: center;
+  white-space: nowrap;
+  vertical-align: baseline;
+  border:1px solid #C42626;
+}
+
+.ProfileButton:hover{
+  text-decoration: none;
+  color:#212529;
+  background-color: #edbdbd;
+}
+
+#admin{
+  display:block;
+}
+
+.Profile{
+  text-align: center;
+  margin-top:20px;
+  padding-bottom: 30px;
+}
+
+.ProfilePicture label { 
+  border-radius: 100%;
+  display: inline-block;
+  margin: 0 10px 8px;
+  border: 2px solid black;
+}
+
+.ProfilePictureHoverText {
+  position: absolute;
+  top: 22px;
+  height: 200px;
+  width: 200px;
+  border-radius: 50%;
+  line-height: 200px;
+  font-weight:500; 
+  opacity: 0;
+}
+
+.ProfilePicture label:hover .ProfilePictureHoverText {
+  opacity:1;
+  cursor: pointer;
+}
+
+.CoverProfile label:hover .CoverProfileHoverText {
+  opacity:0.7;
+  cursor: pointer;
+}
+
+.TextCover{
+  margin-top:90px;
+  opacity:1;
+}
+
+.CoverProfile{
+  position:relative;
+  text-align: center;
+}
+
+.CoverProfileHoverText{
+  position: absolute;
+  opacity:0;
+  height: 200px;
+  width: 300px;
+  background-color:#f4f7f9;
+  top:10px;
+  text-align: center;
+  vertical-align: 50%;
+}
+
+
+@media only screen and (max-width:  768px) {
+  .CoverProfile img{
+    margin-top:40px !important;
+    height: 175px;
+    width:250px;
+  }
+
+  .ProjectProfileBody{
+    margin: 0px !important;
+  }
+
+  .PreviewHead{
+    margin-top: 15px !important;
+    padding-right: 35px !important;
+    padding-left: 15px !important;
+  }
+
+  .ProjectProfileBody .PreviewHead{
+    padding-right: 15px !important;
+  }
+
+  .ProfileDelete{
+    right:10px !important;
+    top:10px !important;
+  }
+
+  .ProfileUpdate{
+    right:45px !important;
+    top:10px !important;
+  }
+
+  .ContentPlace .AddPositionButton{
+    margin-top:20px;
+  }
+  .ContentPlace{
+    margin-left: 0px !important;
+  }
+    
+}
+
+@media only screen  and (min-width: 768px) and (max-width:  992px) {
+  .ContentPlace{
+    margin-left: 70px !important;
+  }
+}
+
+.photoP{
+  border-radius: 100%;
+}
+
+.photoProfile{
+  border-radius: 100%;
+}
+
+.ProfilePicture label:hover .photoP{
+  opacity: 0.2;
+  cursor: pointer;
+}
+
+.PageContent{
+  margin-top: 10px;
+  margin-left: 15px;
+  margin-right:15px;
+  margin-bottom: 20px;
+}
+
+.place{
+  min-width: 250px;
+}
+
+.ProfileName{
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.ContentPlace{
+  margin-top: 40px;
+  margin-left: 20px;
+
+}
+
+.ContentPlaceMessage{
+  margin-left:auto;
+  width: 80%;
+  margin-right:auto;
+}
+
+@media only screen and (max-width:  576px) {
+  .ContentPlaceMessage{
+    width: 100%;
+  }
+}
+
+.ContentBorder{
+  border: 1px solid #c0c5cb;
+  border-radius:5px;
+}
+
+.Content{
+  margin:20px;
+  font-size: 1.2em;
+}
+
+.FirstLine{
+  border-bottom: 1px solid  #c0c5cb;
+  padding-bottom: 20px;
+}
+
+.MiddleLine{
+  border-bottom: 1px solid  #c0c5cb;
+  margin-top: 20px;
+  padding-bottom: 20px;
+}
+
+.LastLine{
+  margin-top: 20px;
+}
+
+.ContentHead{
+  font-size: 1.8em;
+  font-family: Roboto,sans-serif;
+  font-weight: bold;
+  margin-left:10px;
+  margin-bottom: 10px;
+}
+
+.FirstRow{
+  margin-left:15px;
+}
+
+.AddedTime{
+  text-align: left;
+  margin-top:10px;
+  color:#b7aeae;
+  font-size: 14px;
+  font-weight: 600;
+}
+
+.InterestButton{
+  display: inline-block;
+  background-color: transparent; 
+  color: black;
+  outline: none;
+  border-radius: 25px;
+  height:20px;
+  font-size: 0.7em;
+  font-weight: bold;
+  width: 90px;
+  text-align: center;
+  white-space: nowrap;
+  vertical-align: middle;
+  border:2px solid #C42626;
+  margin-bottom:5px;
+}
+
+.InterestButton:hover{
+  background-color:#C42626;
+  cursor: pointer;
+  color:white;
+}
+
+.CancelButton{
+  display: inline-block;
+  background-color: #C93B3B;
+  color: white;
+  outline: none;
+  border: none;
+  border-radius: 25px;
+  height:20px;
+  font-size: 0.7em;
+  font-weight: bold;
+  width:90px;
+  text-align: center;
+  white-space: nowrap;
+  margin-bottom:5px;
+  vertical-align: middle;
+}
+
+.CancelButton:hover{
+  cursor:pointer;
+  background-color: #C42626;
+}
+
+.PositionTitle{
+  font-size: 13px;
+  font-weight: 500;
+  position: relative;
+  display: inline-block;
+}
+
+.PositionTitle:hover{
+  cursor: default;
+}
+
+.remove .InterestButton{
+  width: auto;
+  padding-left: 4px;
+  padding-right: 4px;
+}
+
+.hoverCard{
+  width: 180px;
+  background-color: #fff;
+  color: #212529;
+  text-align: left;
+  border-radius: 6px;
+  padding: 5px 0;
+  bottom:20px;
+  border: 1px solid #aaadaf;
+  position: absolute;
+  z-index: 1;
+}
+
+.PositionTitleHoverPanel{
+  font-weight: 800;
+  font-size: 13px;
+  margin-left: 5px;
+}
+
+.PositionHoverPanelContent{
+  text-align: left;
+  margin-left:5px;
+  margin-right:5px;
+  color:#212529;
+  font-size: 12px;
+  font-weight: 600;
+}
+
+.PositionHoverPanelDescription{
+  color:#212529;
+  font-size: 10px;
+  font-weight: 600;
+}
+
+.PositionHoverPanelType{
+  color:#b7aeae;
+  font-size: 10px;
+  font-weight: 600;
+  border-bottom: 1px solid #aaadaf;
+}
+
+.nav-link:hover{
+  cursor: pointer;
+}
+
+.Active{
+  color: black;
+  border-bottom: 2px solid black;
+}
+
+.UserButtonPlace{
+  float: right;
+  margin-right: 40px;
+  margin-bottom: 10px;
+}
+
+.Space{
+  margin-right: 10px;
+}
+
+.UserFooter{
+  width:100%;
+}
+
+.ProjectProfileCard{
+  color: #000000;
+  border: 1px solid #dbd9d9;
+  min-height: 100px;
+  margin-top: 20px;
+  padding-bottom: 20px;
+  margin-bottom:50px;
+}
+
+.ProjectProfileBody{
+  margin: 20px;
+  position:relative;
+}
+
+.ProjectProfilePhoto{
+  border: 1px solid black;
+  height:200px;
+  width:300px;
+}
+
+.ProjectProfilePhoto{
+  margin-top: 10px;
+}
+
+.ProjectProfileDescription{
+  margin-top: 20px;
+}
+
+.ProjectProfileStatus{ 
+  width:90px;
+  text-align: center;
+}
+
+.ProjectConfirmation{
+  height:100%;
+  min-height: 40px;
+  position:relative;
+}
+
+.ProjectConfirmationPlace{
+  margin-bottom: 10px;
+  margin-top:auto;
+  position:absolute;
+  bottom:0;
+  text-align: center;
+  width:100%;
+}
+
+.StatusActive{
+  display:block;
+  background: #B7E2B7;
+  border-radius:4px;
+}
+
+.StatusActive2{
+  display:inline-block;
+  background: #B7E2B7;
+  border-radius:4px;
+}
+
+.StatusExpired{
+  display:block;
+  background: #ff3232;
+  border-radius:4px;
+}
+
+.StatusUnapproved{
+  display:block;
+  background: #FFC04D;
+  border-radius:4px;
+}
+
+
+.StatusRunning{
+  display:block;
+  background: #ffff66;
+  border-radius:4px;
+}
+
+.StatusFinished{
+  display:block;
+  background: #FF7F7F;
+  border-radius:4px;
+}
+
+.ProjectProfilePositions{
+  margin-top:5px;
+}
+
+.ProfilePosition{
+ border-top: 1px solid #000000;
+}
+
+.ProfilePositionLink:hover{
+  cursor:pointer;
+  background-color:#eff2f4;
+}
+
+.ProfilePositionLink {
+  padding-top: 5px;
+  padding-bottom: 5px; 
+}
+
+.PositionStatus{
+  width:50px;
+  text-align: center;
+  margin:auto;
+}
+
+.InterestCount{
+  display: inline-block;
+  margin:auto;
+  margin-left: 10px;
+  width: 20px;
+  border-radius: 50%;
+  background: #FF4C4C;
+  font-size: 14px;
+  font-weight: 600;
+}
+
+@media only screen and (max-width: 540px) {
+  .InterestCount{
+    margin-left: 0px;
+  }
+}
+
+.ProfilePositionDescription{
+  font-size: 10px;
+}
+
+.ProfilePositionFee{
+  font-size: 11px;
+  text-align: center;
+  background-color: #E8E8E8;
+  margin-top:5px;
+  margin-bottom: 5px;
+  border-radius:5px;
+  font-size: 10px;
+}
+
+.rightcolumn{
+  float: left;
+  width: 20%;
+}
+
+.leftcolumn{
+  float: left;
+  width:80%;
+}
+
+.leftcolumn70{
+  float: left;
+  width:75%;
+
+}
+
+.rightcolumn30{
+  float: left;
+  width: 25%;
+}
+
+.leftcolumn60{
+  float: left;
+  width:60%;
+
+}
+
+.rightcolumn40{
+  float: left;
+  width: 35%;
+}
+
+.leftcolumn65{
+  float: left;
+  width:65%;
+}
+
+.leftcolumn90{
+  float: left;
+  width:90%;
+}
+
+.rightcolumn10{
+  float: left;
+  width: 10%;
+}
+
+.leftcolumn85{
+  float: left;
+  width:82%;
+}
+
+.rightcolumn15{
+  float: left;
+  width: 15%;
+}
+
+.rightcolumn70{
+  float: left;
+  width: 70%;
+}
+
+.leftcolumn30{
+  float: left;
+  width: 25%;
+}
+
+.middlecolumn{
+  float:left;
+  width:15%;
+}
+
+.ProfileUpdate{
+  width: 20px;
+  height:20px;
+  right:35px;
+  top: 0px;
+  background-image: url("../images/settings.png");
+  background-repeat: no-repeat;
+  background-size: 20px 20px;
+  position: absolute;
+  z-index: 1;
+}
+
+.ProfileDelete{
+  width: 20px;
+  height:20px;
+  right:0px;
+  top: 0px;
+  background-image: url("../images/bin.png");
+  background-repeat: no-repeat;
+  background-size: 20px 20px;
+  position: absolute;
+  z-index: 1;
+}
+
+.PositionUpdate{
+  width: 25px;
+  height:25px;
+  background-image: url("../images/wrench.png");
+  background-repeat: no-repeat;
+  background-size: 15px 15px;
+  background-position: center;
+  z-index: 1;
+  margin-right: 7px;
+  opacity: 0.5;
+}
+
+.ProfilePosition .PositionUpdate{
+  margin-left: auto;
+}
+
+.PositionDelete{
+  width: 25px;
+  height:25px;
+  background-image: url("../images/bin.png");
+  background-repeat: no-repeat;
+  background-size: 15px 15px;
+  background-position: center;
+  z-index: 1;
+  margin-right: 7px;
+}
+
+.UserPassword{
+  width: 25px;
+  height:25px;
+  background-image: url("../images/key.png");
+  background-repeat: no-repeat;
+  background-size: 15px 15px;
+  background-position: center;
+  z-index: 1;
+  margin-right: 7px;
+}
+
+.PositionIcon{
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+
+.UserPassword:hover{
+  cursor:pointer;
+  border-radius: 100%;
+  border: 1px solid #aaadaf;
+}
+
+.ProfileDelete:hover{
+  cursor:pointer;
+}
+
+.ProfileUpdate:hover{
+  cursor:pointer;
+}
+
+.PositionDelete:hover{
+  cursor:pointer;
+  border-radius: 100%;
+  border: 1px solid #aaadaf;
+}
+
+.PositionUpdate:hover{
+  cursor:pointer;
+  border-radius: 100%;
+  border: 1px solid #aaadaf;
+}
+
+.PositionCreate{
+  width: 25px;
+  height:25px;
+  background-image: url("../images/plus2.png");
+  background-repeat: no-repeat;
+  background-size: 20px 20px;
+  background-position: center;
+  z-index: 1;
+  margin-left: 7px;
+}
+
+.PositionCreate:hover{
+  background-image: url("../images/plus1.png");
+  cursor:pointer;
+}
+
+.ContentProfile{
+  margin:10px;
+  font-size: 12px;
+  text-align: left;
+  margin-left: 20px;
+}
+
+.PanelNotifications{
+  background-color: #000000;
+}
+
+.NotificationsModal .modal-dialog{
+  margin:0px;
+  border-radius: 0px;
+  height:100%;
+}
+
+.NotificationsModal .modal-content{
+  background-color: transparent;
+  border:none;
+  height:100%;
+}
+
+.NotificationsModal .row{
+  height: 100vh;
+}
+
+.NotificationsModal .myrow{
+  height: 100vh;
+}
+
+.ClosePlace{
+  font-size: 30px;
+  position: absolute;
+  top:10px;
+  right:15px;
+  color: #fff;
+}
+
+@media only screen and (max-width:  768px) {
+  .ClosePlace{
+    color: black;
+  }
+}
+
+.modal-90w{
+  width: 100%;
+  max-width: none!important;
+}
+
+.ModalPanelRight{
+  height:0px;
+}
+
+textarea.form-control {
+  height: 180px;
+}
+
+#answer  {
+  height: 80px;
+}
+
+.modal-50w{
+  width:50%;
+  max-width: none!important;
+  margin-right: auto;
+  margin-left: auto;
+  overflow:hidden;
+}
+
+@media screen and (max-width: 876px) {
+  .modal-50w{
+    width:100%;
+  }
+}
+
+.backSpace{
+  margin-bottom: 70px;
+}
+
+.mb-10{
+  margin-bottom:10px;
+}
+
+.mb5{
+  margin-bottom:5px;
+}
+
+.Date{
+  margin-left:20px;
+  padding:auto;
+  width:170px;  
+}
+
+.DateActive{ 
+  margin-top: 10px;
+  margin-bottom: 5px;
+}
+
+.ProjectProfileAuthor{
+  margin-bottom:25px;
+}
+
+.ProfilePositionCategory{
+  background-color: #E8E8E8;
+  margin-top:5px;
+  margin-bottom: 5px;
+  text-align: center;
+  border-radius:5px;
+  font-size: 10px; 
+}
+
+.UserText{
+  margin-left:5px;
+  color:#212529;
+  font-size: 14px;
+  font-weight: 500; 
+}
+
+.Statistic{
+  margin-left: 40px;
+  font-size: 12px;
+}
+
+.ProjectType{
+  margin-left:5px;
+  color:#212529;
+  font-size: 13px;
+  font-weight: 500; 
+}
+
+.UserDescription{
+  margin-top:10px;
+}
+
+.ProfileInfo{
+  font-size:13px;
+}
+
+.FilterMenuButton{
+  margin-top:5px;
+  width: 2em;
+  height: 2em;
+  background-image: url("../images/circle-down.png");
+  background-repeat: no-repeat;
+  background-size: 2em 2em;
+  background-position: center;   
+}
+
+.FilterMenuButton:hover{
+  cursor:pointer;
+}
+
+.FilterMenu{
+  margin-bottom: 10px;
+  padding: 10px 10px;
+}
+
+.FacultyIcon{
+  width: 11px;
+  height:11px;
+  background-image: url("../images/graduation.png");
+  background-repeat: no-repeat;
+  background-size: 12px 12px;
+  background-position: center;
+}
+
+.ProjectBookmarkNonActive{
+  width: 25px;
+  height:30px;
+  opacity:0.7;
+  right:3%;
+  top:7px;
+  background-image: url("../images/bookmark-white.png");
+  background-repeat: no-repeat;
+  background-size: 25px 30px; 
+  position: absolute;
+  z-index: 1;
+}
+
+.ProjectBookmarkActive{
+  width: 25px;
+  height:30px;
+  opacity:0.7;
+  right:3%;
+  top:7px;
+  background-image: url("../images/bookmark-black.png");
+  background-repeat: no-repeat;
+  background-size: 25px 30px; 
+  position: absolute;
+  z-index: 1;
+}
+
+.ProjectBookmarkNonActive:hover{ 
+  cursor:pointer;
+}
+
+.ProjectBookmarkActive:hover{
+  cursor:pointer;
+}
+
+.ImagePlace{
+  border: 1px solid black;
+}
+
+.photoClick{
+  text-align: center;
+  position: absolute;
+  top: 40%;
+  left:25%;
+  color:#606060;
+  font-weight: 400;
+  font-size: 14px;
+  
+}
+
+.photo{
+  position:relative;
+  border: 1px solid #ced4da;
+  height:125px;
+  width:200px;
+  border-radius:2px;
+  text-align: center;
+}
+
+.photo:hover{
+  cursor:pointer;
+}
+
+.NotificationProject{
+  border-bottom: 1px solid #828997;
+  padding-left:5px;
+  padding-right:5px;
+  position:relative;
+}
+
+.NotificationProjectText{
+  padding-top: 10px;
+  font-weight: 500;
+  color:#c8cfdd;
+  font-size: 14px;
+  text-transform: initial;
+  margin-left:5px;
+  margin-right:5px;
+  white-space: nowrap; 
+  overflow: hidden;
+  text-overflow: ellipsis; 
+}
+
+.NotificationPersonText{
+  padding-top: 10px;
+  padding-bottom:10px;
+  font-weight: 500;
+  color:#c8cfdd;
+  font-size: 14px;
+  text-transform: initial;
+  margin-left:5px;
+  margin-right:5px;
+  white-space: nowrap; 
+  overflow: hidden;
+  text-overflow: ellipsis; 
+}
+
+.NotificationProjectActive .NotificationPersonText{
+  padding-top: 10px;
+  padding-bottom:10px;
+  font-weight: 500;
+  color:#1f2532;
+  font-size: 14px;
+  text-transform: initial;
+  margin-left:5px;
+  margin-right:5px;
+  white-space: nowrap; 
+  overflow: hidden;
+  text-overflow: ellipsis; 
+}
+
+
+
+.NotificationProjectActive .NotificationProjectText{
+  padding-top: 10px;
+  font-weight: 500;
+  color:#1f2532;
+  font-size: 14px;
+  text-transform: initial;
+  margin-left:5px;
+  margin-right:5px;
+  white-space: nowrap; 
+  overflow: hidden;
+  text-overflow: ellipsis; 
+}
+
+.NotificationProjectAuthor{
+  font-weight: 500;
+  color:#828997;
+  font-size: 12px;
+  text-transform: initial;
+  margin-left:5px;
+  margin-right:5px;
+  white-space: nowrap; 
+  overflow: hidden;
+  text-overflow: ellipsis;
+  margin-bottom: 10px;
+}
+
+.NotificationsProjectPanel{
+  height: 100vh;
+  background-color: #1f2532;
+  padding-top: 15px;
+  padding-left:15px;
+}
+
+.NotificationsProjects{
+  color:white;
+  border-bottom: 1px solid #828997;
+  padding-bottom:10px;
+  padding-left: 20px;
+  font-weight: 600;
+  font-size: 18px;
+}
+
+.NotificationProject:hover  {
+  background-color: #F5F5F5;
+  color:black;
+  cursor:pointer;
+}
+
+.NotificationProject:hover  .NotificationProjectText{
+  color:#1f2532;
+  cursor:pointer;
+}
+
+.NotificationProjectActive{
+  background-color:#F5F5F5;
+  color:black;
+  border-bottom: 1px solid #828997;
+  padding-left:5px;
+  padding-right:5px;
+  position:relative;
+}
+
+.Notifications{
+  background-color: #F5F5F5;
+  height: 100vh;
+}
+
+.NotificationsList{
+  overflow-y: auto;
+  height: 92vh;
+}
+
+@media only screen and (max-height:670px) {
+  .NotificationsList{
+    height: 90vh;
+  }
+}
+
+@media only screen and (max-height: 540px) {
+  .NotificationsList{
+    height: 88vh;
+   }
+}
+
+@media only screen and (max-height: 450px) {
+  .NotificationsList{
+    height: 85vh;
+  }
+}
+
+@media only screen and (max-height: 300px) {
+  .NotificationsList{
+    height: 83vh;
+  }
+}
+
+.NotificationsHeader{
+  border-bottom: 1px solid #e1e2e6;
+  background: #fff;
+  padding-top:15px;
+  color:#1f2532;
+  padding-left: 20px;
+  padding-right:30px;
+  font-weight: 600;
+  font-size: 18px;
+}
+
+.MyCol{
+  padding:0;
+}
+
+.mainWords{
+  color:#1f2532;
+  font-weight: 500;
+}
+
+.link{
+  color:#1f2532;
+  font-weight: 500;
+}
+
+.link:hover{
+  border-bottom: 1px solid #1f2532;
+  cursor:pointer;
+}
+
+.NotificationPanel{
+  position:relative;
+  padding-top:12px;
+  padding-bottom:5px;
+  padding-left:5px;
+  padding-right:5px;
+  border-bottom: 1px solid #828997;
+}
+
+.InterestPosition{
+  margin-bottom: 10px;
+}
+
+.ChooseButtonNotification{
+  float: right;
+  margin-right: 20px;
+}
+
+.NotificationFooter{
+  width:100%;
+  height:20px;
+}
+
+.MessageHead{
+  padding: 5px;
+  background-color: #fff;
+  background-clip: border-box;
+  border: 1px solid rgba(0, 0, 0, 0.125);
+  border-top-left-radius: 0.25rem;
+  border-top-right-radius: 0.25rem;
+  font-weight: 500;
+}
+
+.MessagePanel{
+  padding:15px;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.125);
+}
+
+.MessagePanelNew{
+  padding:15px;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.125);
+  background-color: #e9e9e9;
+}
+
+.MessageFoot{
+  padding: 5px;
+  background-color: #fff;
+  background-clip: border-box;
+  border: 1px solid rgba(0, 0, 0, 0.125);
+  border-bottom-left-radius: 0.25rem;
+  border-bottom-right-radius: 0.25rem;
+}
+
+.MessageText{
+  white-space: nowrap;  
+  overflow: hidden;
+  text-overflow: ellipsis; 
+  
+}
+
+.LinkText{
+  color:#1f2532;
+  font-weight: 600;
+}
+
+.MessagePanel .LinkText{
+  color:#1f2532;
+  font-weight: 300;
+}
+
+.LinkText:hover{
+  color:#C42626;
+  cursor:pointer;
+  text-decoration:underline;
+}
+
+.MessageContent{
+  padding:10px;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.MessageAuthor{
+  padding-left: 5px;
+  margin-top: 5px;
+  border-bottom: 1px solid #e1e2e6;
+}
+
+.MessageProject{
+  padding-left: 5px;
+  margin-top: 5px;
+  border-bottom: 1px solid #e1e2e6;
+}
+
+.MessageCV{
+  margin-top: 10px;
+}
+
+.MessageMessage{
+  margin:5px;
+  margin-top:20px;
+  /*border: 1px solid #e1e2e6;*/
+  
+  border-radius: 0.25em;
+  
+  /*border-radius: 0.25em;
+  min-height: 200px;
+  
+  */
+}
+
+.MessageProjectCheck{
+  padding-left: 10px;
+  padding-bottom: 10px;
+  padding-right: 10px;
+}
+
+.MessageContentText{
+  padding: 5px;
+  background-color: #f8e7e7;
+  border-radius: 0.25em;
+}
+
+.Answer{
+  margin-top:30px;
+}
+
+.AnswerTextArea{
+  margin-top:30px;
+}
+
+.Answer_Button {
+  background-color: #C93B3B;
+  color: white;
+  border: none;
+  outline: none;
+  border-radius: 25px;
+  padding: 5px 0px;
+  font-size: 1.1em;
+  font-weight: bold;
+  width:100px;
+  display: inline-block;
+  text-align: center;
+  vertical-align: middle;
+  user-select: none;
+}
+
+.Answer_Button:hover {
+    cursor:pointer;
+    background-color: #C42626;
+}
+
+.MessageHeadText{
+  margin-left: 10px;
+  color:#1f2532;
+  font-weight: 500;
+  white-space: nowrap; 
+  overflow: hidden;
+  text-overflow: ellipsis; 
+}
+
+.RequestHead{
+  margin-top: 20px;
+}
+
+.RequestDescription{
+  margin-top: 10px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  line-height: 16px;    
+  max-height: 112px;      
+  -webkit-line-clamp: 7; 
+  -webkit-box-orient: vertical;
+}
+
+.Test button {
+  background:none!important;
+  border:none; 
+  padding:0!important;
+  font-family:arial,sans-serif; 
+  cursor:pointer;
+}
+
+.Test button:hover{
+  text-decoration:underline;
+}
+
+.Applicant{
+  font-size: 12px;
+  margin-top:5px;
+}
+
+.height-center{
+  margin-top:auto;
+  margin-bottom:auto;
+}
+
+.down{
+  width: 0;
+  height: 0;
+  border: 3.5px solid transparent;
+  border-top: 3.5px solid #646f82;
+  content: "";
+  position: relative;
+  top: 5px;
+  right: 0;
+  left: 5px;
+  margin: 6px 0 0;
+}
+
+.vol{
+  background-color: green;
+}
+
+.LinkShowCV{
+  color:#606060;
+  font-weight: 600;
+  text-align: center;
+}
+
+.LinkShowCV:hover{
+  cursor:pointer;
+  text-decoration: underline;
+  color:#C42626;
+}
+
+.mr-20{
+  margin-right: 20px;
+}
+
+.mr-10{
+  margin-right:10px;
+}
+
+.ml5{
+  margin-left: 5px;
+}
+
+.mr5{
+  margin-right: 2%;
+}
+
+.newNotification{
+  position: absolute;
+  bottom:17px;
+  left:13px;
+  padding: 1px 5px;
+  border-radius: 50%;
+  background: red;
+  color: white;
+  font-size: 10px;
+  font-weight: 600;
+}
+
+.newProjectNotification{
+  position: absolute;
+  bottom:5px;
+  left:90%;
+  padding: 1px 5px;
+  border-radius: 50%;
+  background: red;
+  color: white;
+  font-size: 10px;
+  font-weight: 600;
+}
+
+.relative{
+  position: relative;
+  border:none;
+}
+
+.relative:hover{
+  cursor:pointer;
+}
+
+.BackButton{
+  display: inline-block;
+  background-color:transparent;
+  color: black;
+  border: none;
+  outline: none;
+  border-radius: 25px;
+  height:30px;
+  font-size: 0.7em;
+  font-weight: bold;
+  width: 80px;
+  text-align: center;
+  white-space: nowrap;
+  vertical-align: baseline;
+  border:2px solid #C42626;
+}
+
+.BackButton:hover{
+  background-color:#C42626;
+  cursor: pointer;
+  color:white;
+}
+
+.NotificationTime{
+  top:3%;
+  right:3%;
+  position: absolute;
+  color:#606060;
+  font-weight: 400;
+  font-size: 14px;
+  font-size: 10px;
+  font-weight: 600;
+}
+
+::-webkit-scrollbar {
+  width: 10px;
+  height: 10px; 
+}
+
+::-webkit-scrollbar-track {
+  -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3); 
+  -webkit-border-radius: 10px;
+  border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb {
+  -webkit-border-radius: 10px;
+  border-radius: 10px;
+  background: #606060; 
+  -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.5); 
+}
+
+::-webkit-scrollbar-thumb:window-inactive {
+  background: #606060; 
+}
+
+.Confirm_Button {
+  margin-top: 20px;
+  background-color: #C93B3B;
+  color: white;
+  border: none;
+  outline: none;
+  border-radius: 25px;
+  height:30px;
+  font-size: 0.7em; 
+  font-weight: bold;
+  width:80px;
+  white-space: nowrap;
+  vertical-align: baseline;
+  display: inline-block;
+  text-align: center;
+  vertical-align: middle;
+  user-select: none;
+}
+
+.Confirm_Button:hover {
+  cursor:pointer;
+  background-color: #C42626;
+}
+
+.Logout:hover{
+  cursor: pointer;
+}
+
+.image{
+  background-image: url("../images/search_icon.png");
+  background-repeat: no-repeat;
+  background-size: 22px 22px;
+  background-position: center;
+}
+
+
+.MyAlert{
+  color:red;
+  margin-bottom: 10px;
+}
+
+.bg-adminMenu{
+  background-color: white;
+}
+
+.sidebar{
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  z-index: 100;
+  padding: 48px 0 0;
+  box-shadow: inset -1px 0 0 rgba(0, 0, 0, .1);
+  background-color: white !important;
+}
+
+.sidebar .nav-link , .profile-navbar .nav-link {
+  font-weight: 700;
+  color: #333;
+  font-size: .875rem;
+  line-height: 1.5;
+  opacity: 0.5;
+}
+
+.profile-navbar .nav-link{
+  font-size: 1.1rem;
+  padding: 0.3rem 0.7rem;
+}
+
+.sidebar .nav-link:hover, .profile-navbar .nav-link:hover {
+  opacity: 1;
+}
+
+.dashboardIcon{
+  width: 15px;
+  height: 15px; 
+  background-image: url("../images/dashboard.png");
+  background-repeat: no-repeat;
+  background-size: 15px 15px;
+  background-position: center;
+  display: inline-block;
+  margin-right: 10px;
+  vertical-align: text-bottom;
+} 
+
+.projectsIcon{
+  width: 15px;
+  height: 15px;
+  background-image: url("../images/project.png");
+  background-repeat: no-repeat;
+  background-size: 15px 15px;
+  background-position: center;
+  display: inline-block;
+  margin-right: 10px;
+  vertical-align: text-bottom;
+} 
+
+.usersIcon{
+  width: 15px;
+  height: 15px;
+  background-image: url("../images/users.png");
+  background-repeat: no-repeat;
+  background-size: 15px 15px;
+  background-position: center;
+  display: inline-block;
+  margin-right: 10px;
+  vertical-align: text-bottom;
+} 
+
+.positionsIcon{
+  width: 15px;
+  height: 15px;
+  background-image: url("../images/position.png");
+  background-repeat: no-repeat;
+  background-size: 15px 15px;
+  background-position: center;
+  display: inline-block;
+  margin-right: 10px;
+  vertical-align: text-bottom;
+} 
+
+.categoriesIcon{
+  width: 15px;
+  height: 15px;
+  background-image: url("../images/books.png");
+  background-repeat: no-repeat;
+  background-size: 15px 15px;
+  background-position: center;
+  display: inline-block;
+  margin-right: 10px;
+  vertical-align: text-bottom;
+} 
+
+.border-left-dashboard {
+  border-left: 0.25rem solid #9F1414 !important;
+}
+
+.progress-bar {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  color: #fff;
+  text-align: center;
+  white-space: nowrap;
+  background-color: #4e73df;
+  -webkit-transition: width 0.6s ease;
+  transition: width 0.6s ease;
+}
+
+.text-dashboard {
+  color: #9F1414  !important;
+  font-weight: 700 !important;
+  font-size: 1.3em;
+}
+
+.text-overview {
+  color: #212529 !important;
+  font-weight: 700 !important;
+  font-size: 1.2em;
+}
+
+.text-count{
+  font-weight: 700 !important;
+  color: #5a5c69 !important;
+}
+
+.sortArrow{
+  position: relative;
+  width: 12px;
+  height: 12px;
+  background-image: url("../images/arrow-up2.png");
+  background-repeat: no-repeat;
+  background-size: 12px 12px;
+  background-position: center;
+  display: inline-block;
+  margin-top: 8px;
+  padding-bottom:2px;
+}
+
+.sort{
+  width: 12px;
+  height: 12px;
+}
+
+.sortDownArrow{
+  position: relative;
+  margin-bottom:4px;
+  width: 12px;
+  height: 12px;
+  background-image: url("../images/arrow-down2.png");
+  background-repeat: no-repeat;
+  background-size: 12px 12px;
+  background-position: center;
+  display: inline-block;
+  margin-top: 8px;
+  vertical-align: text-bottom;
+}
+
+#dataTable{
+  font-weight: 400 !important;
+  color: #5a5c69;
+  font-size: .955rem;
+  line-height: 1.8;
+}
+
+.headerHover{
+  cursor: pointer;
+}
+
+.adminRemoveButton{
+  display: inline-block;
+  background-color: #E5E5E5;
+  color: black;
+  border: none;
+  outline: none;
+  border-radius: 5px;
+  padding: 5px 0px;
+  font-size: 0.8em;
+  font-weight: bold;
+  width: 80px;
+  text-align: center;
+  white-space: nowrap;
+  vertical-align: baseline;
+  border:2px solid #C42626;
+}
+
+.adminRemoveButton:hover{
+  text-decoration: none;
+  color:black;
+  background-color:#edbdbd;
+  cursor:pointer;
+}
+
+.adminPage{
+  margin-bottom: 40px;
+}
+
+.button-admin{
+  padding: 0.25rem 0.5rem;
+  font-size: 0.7875rem;
+  line-height: 1.5;
+  font-weight: 500;
+  border-radius: 0.2rem;
+  color: #C42626;
+  border-color: #C42626;
+}
+
+.link-new{
+  padding: 0.30rem 0.65rem;
+  font-size: 0.8575rem;
+  line-height: 1.65;
+  font-weight: 700;
+  border-radius: 25px;
+  color: #9F1414;
+  border: 2px solid #9F1414;
+}
+
+.link-new:hover{
+  color: white;
+  background-color: #9F1414;
+}
+
+.button-admin:focus{
+  outline:none !important;
+  box-shadow: none !important;
+}
+
+.button-admin:hover {
+  color: white;
+  background-color: #C42626;
+}
+
+.flex-nowrap{
+  flex-wrap:nowrap;
+}
+
+@media (min-width: 768px){
+  .sidebarShow{
+    display: block !important;
+  }
+}
+
+.sidebar-divider{
+  margin: 1rem 1rem 1rem  !important;
+  border-top: 1px solid #333;
+  opacity:0.5;
+}
+
+.signOut{
+  font-size: 1.1rem;
+  font-weight: 600;
+}
+
+.signOut:hover{
+  font-size: 1.1rem;
+  font-weight: 600;
+  opacity:1;
+}
+
+.bg-green{
+  background: #1cc88a;
+}
+
+.multiple{
+  padding:0;
+  box-shadow: none !important;
+  overflow: auto;
+}
+
+select[multiple]:focus option:checked {
+  background: 	#C8C8C8 linear-gradient(0deg, 	#C8C8C8 0%, 	#C8C8C8 100%);
+  color:black;
+}
+
+.selectOption{
+  padding-right: 10px;
+  padding-left: 10px;
+}
+
+.messagesIcon{
+  width: 15px;
+  height: 15px;
+  background-image: url("../images/messages.png");
+  background-repeat: no-repeat;
+  background-size: 15px 15px;
+  background-position: center;
+  display: inline-block;
+  margin-right: 10px;
+  vertical-align: text-bottom;
+}
+
+.aboutIcon{
+  width: 15px;
+  height: 15px;
+  background-image: url("../images/info.png");
+  background-repeat: no-repeat;
+  background-size: 15px 15px;
+  background-position: center;
+  display: inline-block;
+  margin-right: 10px;
+  vertical-align: text-bottom;
+}
+
+.accountIcon{
+  width: 15px;
+  height: 15px;
+  background-image: url("../images/settings2.png");
+  background-repeat: no-repeat;
+  background-size: 15px 15px;
+  background-position: center;
+  display: inline-block;
+  margin-right: 10px;
+  vertical-align: text-bottom;
+}
+
+.profile-navbar{
+  width:220px;
+  text-align:left;
+  margin:auto;
+  margin-top: 20px;
+  padding-top:10px;
+  margin-bottom: 40px;
+}
+
+.Profile .border-top{
+  border-top: 1px solid #b1b4b8 !important;
+}
+
+.SignNotice .alert{
+  width:120%;
+  position:absolute;
+  top:-40px;
+  left:-10%;
+  right:-10%;
+  padding:2px;
+  margin-bottom:0px;
+}
+
+.FormField_Label .alert{
+  padding:2px;
+  margin-bottom:0px;
+}
+
+.FormField_Label .alert-dismissible .close, .SignNotice .alert-dismissible .close{
+  position:absolute;
+  padding:0px  !important;
+
+}
+
+.absolute2{
+  position:absolute;
+  top: -80px;
+  left:auto;
+  right:auto;
+}
+
+.pad10{
+  padding:5px;
+}
+
+.block{
+  display:inline-block;
+}
+
+@media only screen and (max-width:  576px) {
+  .NotificationFooter .mr-20{
+    margin-right: 5px;
+  }
+}
+
+.ShowCV{
+  width:70px;
+  text-align: center;
+  display:inline-block;
+  background: #B7E2B7;
+  border-radius:4px;
+  font-size: 0.7rem;
+  font-weight: 700;
+  padding:2px 0px;
+}
+
+.ShowCV:hover{
+  cursor:pointer;
+  background: #8bc98b;
+}
